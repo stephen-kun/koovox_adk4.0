@@ -1,0 +1,31 @@
+ \
+ gatt_apple_notification_client/default/assisted/gatt_apple_notification_client_init.o:  \
+ gatt_apple_notification_client/gatt_apple_notification_client_init.c \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/standard/string.h \
+  C:/ADK4.0.0/tools/include/standard/stdio.h \
+  C:/ADK4.0.0/tools/lib/gcc-lib/xap-local-xap-assisted/3.3.3/include/stdarg.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/gatt_manager.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/library.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/vmtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/message.h \
+  C:/ADK4.0.0/tools/include/firmware/sink_.h \
+  C:/ADK4.0.0/tools/include/firmware/message_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/message/system_message.h \
+  C:/ADK4.0.0/tools/include/firmware/app/adc/adc_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/usb/usb_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/vm/vm_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/capsense/capsense_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/partition/partition_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/infrared/infrared_if.h \
+  C:/ADK4.0.0/tools/include/firmware/source_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/status/status_if.h \
+  C:/ADK4.0.0/tools/include/firmware/bdaddr_.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/gatt.h \
+  gatt_apple_notification_client/gatt_apple_notification_client.h \
+  gatt_apple_notification_client/gatt_apple_notification_client_discover.h \
+  gatt_apple_notification_client/gatt_apple_notification_client_msg_handler.h \
+  gatt_apple_notification_client/gatt_apple_notification_client_private.h \
+  C:/ADK4.0.0/tools/include/firmware/panic.h \
+  gatt_apple_notification_client/gatt_apple_notification_client_debug.h

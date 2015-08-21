@@ -1,0 +1,5 @@
+sdp_parse/default/assisted/sdp_parse_arbitrary.o:  \
+ sdp_parse/sdp_parse_arbitrary.c sdp_parse/sdp_parse.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/service.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/region.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h

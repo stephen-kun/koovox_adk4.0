@@ -1,0 +1,17 @@
+-g
+-O
+-fno-builtin-memcpy
+-ansi
+-pedantic
+-Wall
+-Wmissing-prototypes
+-Wstrict-prototypes
+-Wsign-compare
+-Wredundant-decls
+-Werror
+-IC:\ADK4.0.0\tools/include/firmware
+-IC:\ADK4.0.0\tools/include/standard
+-IC:\ADK4.0.0\tools/include/profiles/BlueLab-7.0.1-Release
+-Wp,-MD,usb_device_class/no_mass_storage/assisted/depend/
+-Wp,-MQ,usb_device_class/no_mass_storage/assisted/dummy.force
+-DUSB_DEVICE_CLASS_REMOVE_MASS_STORAGE

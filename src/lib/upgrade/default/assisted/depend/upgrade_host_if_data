@@ -1,0 +1,24 @@
+upgrade/default/assisted/upgrade_host_if_data.o:  \
+ upgrade/upgrade_host_if_data.c \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/standard/string.h \
+  C:/ADK4.0.0/tools/include/firmware/panic.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/byte_utils.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/print.h \
+  upgrade/upgrade_host_if.h C:/ADK4.0.0/tools/include/firmware/message.h \
+  C:/ADK4.0.0/tools/include/firmware/sink_.h \
+  C:/ADK4.0.0/tools/include/firmware/message_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/message/system_message.h \
+  C:/ADK4.0.0/tools/include/firmware/app/adc/adc_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/usb/usb_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/vm/vm_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/capsense/capsense_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/partition/partition_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/infrared/infrared_if.h \
+  C:/ADK4.0.0/tools/include/firmware/source_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/status/status_if.h \
+  upgrade/upgrade.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/library.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/vmtypes.h \
+  upgrade/upgrade_host_if_data.h upgrade/upgrade_msg_host.h

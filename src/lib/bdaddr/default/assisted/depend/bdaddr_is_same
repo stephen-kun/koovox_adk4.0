@@ -1,0 +1,8 @@
+bdaddr/default/assisted/bdaddr_is_same.o: bdaddr/bdaddr_is_same.c \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/bdaddr.h \
+  C:/ADK4.0.0/tools/include/firmware/bdaddr_.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/types.h \
+  C:/ADK4.0.0/tools/include/standard/limits.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/bluetooth.h \
+  C:/ADK4.0.0/tools/include/standard/string.h

@@ -1,0 +1,32 @@
+usb_device_class/no_mass_storage/assisted/usb_device_class.o:  \
+ usb_device_class/usb_device_class.c \
+  C:/ADK4.0.0/tools/include/firmware/panic.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/sink.h \
+  C:/ADK4.0.0/tools/include/firmware/sink_.h \
+  C:/ADK4.0.0/tools/include/firmware/bdaddr_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/vm/vm_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/stream/stream_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/types.h \
+  C:/ADK4.0.0/tools/include/standard/limits.h \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/firmware/usb.h \
+  C:/ADK4.0.0/tools/include/firmware/app/usb/usb_if.h \
+  usb_device_class/usb_device_class.h \
+  C:/ADK4.0.0/tools/include/firmware/message.h \
+  C:/ADK4.0.0/tools/include/firmware/message_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/message/system_message.h \
+  C:/ADK4.0.0/tools/include/firmware/app/adc/adc_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/capsense/capsense_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/partition/partition_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/infrared/infrared_if.h \
+  C:/ADK4.0.0/tools/include/firmware/source_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/status/status_if.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/library.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/vmtypes.h \
+  usb_device_class/usb_device_audio.h \
+  usb_device_class/usb_device_battery_charging.h \
+  usb_device_class/usb_device_mass_storage.h \
+  usb_device_class/usb_device_hid.h \
+  usb_device_class/usb_device_class_private.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/print.h

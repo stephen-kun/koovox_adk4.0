@@ -1,0 +1,38 @@
+#ifndef __GATT_WECHAT_SERVER_DB_DBI__
+#define __GATT_WECHAT_SERVER_DB_DBI__
+
+#include "gatt_wechat_server_uuids.h"
+
+primary_service{
+	uuid : UUID_WECHAT_SERVICE,
+	name : "WECHAT",
+	characteristic {
+		uuid		: UUID_WECHAT_WRITE,
+		name		: "WRITE_CHARACTERISTIC",
+		flags		: [ FLAG_IRQ],
+        properties 	: [ write],
+        value      	: 0x0
+	},
+	characteristic {
+		uuid		: UUID_WECHAT_INDICATE,
+		name		: "INDICATE_CHARACTERISTIC",
+		flags		: [ FLAG_IRQ ],
+        properties 	: [ read, indicate, notify],
+        value      	: 0x0,
+        client_config
+		{
+			name	: "WECHAR_CLIENT_CONFIG",
+			flags	: [ FLAG_IRQ , FLAG_DYNLEN ]
+		}
+	},
+	characteristic {
+		uuid		: UUID_WECHAT_READ,
+		name		: "READ_CHARACTERISTIC",
+		flags		: [ FLAG_IRQ ],
+        properties 	: [ read],
+		value		: 0x0
+	}	
+},
+
+#endif /* __GATT_WECHAT_SERVER_DB_DBI__ */
+

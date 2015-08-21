@@ -1,0 +1,38 @@
+#
+# Compilation variants for Generic Application Interface Architecture library
+# [default]       RFCOMM and GATT transport
+#  debug          RFCOMM and GATT transport, verbose debugging
+#  test           GAIA library calling mocked FW traps
+#  spp            SPP transport only
+#  spp_debug      SPP transport only, verbose debugging
+#
+VARIANTS := spp debug spp_debug # test
+
+ifeq ($(OS), Windows_NT)
+  current_dir := $(shell echo %CD%)
+else
+  current_dir := $(shell pwd) #not tested
+endif
+mock_header_path := $(current_dir)/firmware_mock/include
+
+CFLAGS_test :=  -include $(mock_header_path)/message_m.h\
+                -include $(mock_header_path)/sink_m.h\
+                -include $(mock_header_path)/source_m.h\
+                -include $(mock_header_path)/ps_m.h\
+                -include $(mock_header_path)/partition_m.h\
+                -include $(mock_header_path)/vm_m.h\
+                -include $(mock_header_path)/boot_m.h\
+                -include $(mock_header_path)/stream_m.h\
+                -include $(mock_header_path)/adc_m.h\
+                -include $(mock_header_path)/file_m.h\
+                -include $(mock_header_path)/kalimba_m.h\
+                -include $(mock_header_path)/loader_m.h\
+                -include $(mock_header_path)/psu_m.h
+
+CFLAGS_debug := -DDEBUG_GAIA -DDEBUG_GAIA_COMMAND -DDEBUG_GAIA_TRANSPORT
+
+CFLAGS_spp := -DGAIA_TRANSPORT_NO_RFCOMM -DGAIA_TRANSPORT_SPP
+
+CFLAGS_spp_debug := -DGAIA_TRANSPORT_NO_RFCOMM -DGAIA_TRANSPORT_SPP \
+                    -DDEBUG_GAIA -DDEBUG_GAIA_COMMAND \
+                    -DDEBUG_GAIA_TRANSPORT

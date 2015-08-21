@@ -1,0 +1,17 @@
+-g
+-O
+-fno-builtin-memcpy
+-ansi
+-pedantic
+-Wall
+-Wmissing-prototypes
+-Wstrict-prototypes
+-Wsign-compare
+-Wredundant-decls
+-Werror
+-IC:\ADK4.0.0\tools/include/firmware
+-IC:\ADK4.0.0\tools/include/standard
+-IC:\ADK4.0.0\tools/include/profiles/BlueLab-7.0.1-Release
+-Wp,-MD,a2dp/debug/assisted/depend/
+-Wp,-MQ,a2dp/debug/assisted/dummy.force
+-DA2DP_DEBUG_LIB

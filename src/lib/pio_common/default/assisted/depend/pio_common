@@ -1,0 +1,6 @@
+pio_common/default/assisted/pio_common.o: pio_common/pio_common.c \
+  C:/ADK4.0.0/tools/include/firmware/pio.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/app/pio/pio_if.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/print.h \
+  pio_common/pio_common.h

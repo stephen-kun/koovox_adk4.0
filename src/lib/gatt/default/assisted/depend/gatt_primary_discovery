@@ -1,0 +1,34 @@
+gatt/default/assisted/gatt_primary_discovery.o:  \
+ gatt/gatt_primary_discovery.c gatt/gatt_private.h \
+  C:/ADK4.0.0/tools/include/firmware/app/message/system_message.h \
+  C:/ADK4.0.0/tools/include/firmware/app/adc/adc_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/usb/usb_if.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/app/vm/vm_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/capsense/capsense_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/partition/partition_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/infrared/infrared_if.h \
+  C:/ADK4.0.0/tools/include/firmware/source_.h \
+  C:/ADK4.0.0/tools/include/firmware/sink_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/types.h \
+  C:/ADK4.0.0/tools/include/standard/limits.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/bluetooth.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/hci.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/l2cap_prim.h \
+  C:/ADK4.0.0/tools/include/firmware/app/bluestack/att_prim.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/connection.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/connection_no_ble.h \
+  C:/ADK4.0.0/tools/include/firmware/bdaddr_.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/library.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/vmtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/message.h \
+  C:/ADK4.0.0/tools/include/firmware/message_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/status/status_if.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/region.h \
+  C:/ADK4.0.0/tools/include/firmware/panic.h gatt/gatt.h \
+  gatt/gatt_config.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/service.h \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/standard/string.h \
+  C:/ADK4.0.0/tools/lib/gcc-lib/xap-local-xap-assisted/3.3.3/include/stddef.h \
+  C:/ADK4.0.0/tools/include/firmware/vm.h

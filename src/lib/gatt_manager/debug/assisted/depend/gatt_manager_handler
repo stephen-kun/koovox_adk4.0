@@ -1,0 +1,30 @@
+gatt_manager/debug/assisted/gatt_manager_handler.o:  \
+ gatt_manager/gatt_manager_handler.c \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/standard/string.h \
+  gatt_manager/gatt_manager_handler.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/library.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/vmtypes.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/gatt.h \
+  C:/ADK4.0.0/tools/include/firmware/bdaddr_.h \
+  C:/ADK4.0.0/tools/include/firmware/message_.h \
+  gatt_manager/gatt_manager.h \
+  C:/ADK4.0.0/tools/include/firmware/message.h \
+  C:/ADK4.0.0/tools/include/firmware/sink_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/message/system_message.h \
+  C:/ADK4.0.0/tools/include/firmware/app/adc/adc_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/usb/usb_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/vm/vm_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/capsense/capsense_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/partition/partition_if.h \
+  C:/ADK4.0.0/tools/include/firmware/app/infrared/infrared_if.h \
+  C:/ADK4.0.0/tools/include/firmware/source_.h \
+  C:/ADK4.0.0/tools/include/firmware/app/status/status_if.h \
+  gatt_manager/gatt_manager_internal.h \
+  C:/ADK4.0.0/tools/include/firmware/panic.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/print.h \
+  C:/ADK4.0.0/tools/include/standard/stdio.h \
+  C:/ADK4.0.0/tools/lib/gcc-lib/xap-local-xap-assisted/3.3.3/include/stdarg.h \
+  gatt_manager/gatt_manager_data.h gatt_manager/gatt_manager_server.h \
+  gatt_manager/gatt_manager_client.h

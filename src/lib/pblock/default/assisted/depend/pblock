@@ -1,0 +1,9 @@
+pblock/default/assisted/pblock.o: pblock/pblock.c \
+  C:/ADK4.0.0/tools/include/firmware/ps.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h \
+  C:/ADK4.0.0/tools/include/firmware/app/ps/ps_if.h \
+  C:/ADK4.0.0/tools/include/standard/stdlib.h \
+  C:/ADK4.0.0/tools/include/standard/string.h \
+  C:/ADK4.0.0/tools/include/firmware/panic.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/print.h \
+  pblock/pblock.h

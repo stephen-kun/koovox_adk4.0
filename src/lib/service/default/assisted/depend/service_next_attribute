@@ -1,0 +1,5 @@
+service/default/assisted/service_next_attribute.o:  \
+ service/service_next_attribute.c service/service_private.h \
+  service/service.h \
+  C:/ADK4.0.0/tools/include/profiles/BlueLab-7.0.1-Release/region.h \
+  C:/ADK4.0.0/tools/include/standard/csrtypes.h
