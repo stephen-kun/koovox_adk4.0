@@ -1,0 +1,17 @@
+-DKALASM3
+-DAUDIO_CBUFFER_SIZE=720
+-DCODEC_CBUFFER_SIZE=1024
+-DGOOD_WORKING_BUFFER_LEVEL=0.15
+-DFASTSTREAM_ENABLE
+-DxAPTX_ACL_SPRINT_ENABLE
+-DLATENCY_REPORTINGx
+-DGORDON
+-DKAL_ARCH3
+-DKALASM3
+-g
+-mchip=gordon
+-IC:/ADK4.0.0/kalimba
+-IC:/ADK4.0.0/kalimba/architecture
+-IC:/ADK4.0.0/kalimba/lib_sets/sdk/include
+-IC:/ADK4.0.0/kalimba/external_includes/vm
+-IC:/ADK4.0.0/kalimba/external_includes/firmware
